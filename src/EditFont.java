@@ -23,6 +23,7 @@ public class EditFont extends JFrame {
         this.setResizable(false);
         this.setLayout(new FlowLayout());
 
+
 //        About Choosing Font
         font = new JLabel("Font : ");
         String[] fonts = GraphicsEnvironment.getLocalGraphicsEnvironment().getAvailableFontFamilyNames();
